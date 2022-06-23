@@ -99,7 +99,7 @@ public class OperacoesProduto{
                                 dado = Validacao.Letras("Nome: ", false);
                                 produto.dadosProduto().setNome(dado);
                                 break;
-                            case '2':
+                            //case '2':
                                 dado = Validacao.Letras("Descricao: ", false);
                                 produto.dadosProduto().setDescricao(dado);break;
                             case '3':
