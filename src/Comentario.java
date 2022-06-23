@@ -30,7 +30,7 @@ public class Comentario implements Serializable{
      */
     public Comentario(Usuario user, Produto produto){
         atribuiCodigo();
-        comentario = Validacao.leituraSemValidacao("Introduza algum comentario-Vali: ");
+        comentario = Validacao.leituraSemValidacao("Introduza algum comentario--Issufo, Vali:");
         estadoComentario = estadoComentario((byte) 1);
         frequenciaVisualizacao = frequenciaVisualizacao(user);
         data = LocalDateTime.now();
