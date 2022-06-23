@@ -126,9 +126,9 @@ public class OperacoesProduto{
                                 dado = Validacao.Digitos("Stock: ", false);
                                 produto.dadosProduto().setStock(Integer.parseInt(dado));
                                 break;
-                            case '9':
-                                produto.unidade();
-                                break;
+                            //case '9':
+                              //  produto.unidade();
+                             //   break;
                             default: System.out.println("Falha... ");
                         }
                     }
