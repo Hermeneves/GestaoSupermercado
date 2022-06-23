@@ -99,6 +99,7 @@ public class OperacoesNivelAcesso extends OperacoesUsuario{
         }catch(Exception ex){
             System.err.println(ex.getMessage());
             ex.printStackTrace();
+           
         }
     }
     
@@ -140,6 +141,7 @@ public class OperacoesNivelAcesso extends OperacoesUsuario{
         }
 
         return false;
+        // Essa sessao nao esta boa
     }
     
     /**
